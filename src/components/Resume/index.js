@@ -1,5 +1,6 @@
 import React from 'react';
-import Nav from './Nav'
+import Nav from '../Nav'
+import style from './resume.module.css'
 
 function Resume() {
     return (
