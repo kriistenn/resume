@@ -13,10 +13,12 @@ function Nav() {
             <div className={style.image}>Imge</div>
             <h1 className={style.name}>Christina Kolitvinova</h1>
             </div>
+            <div >
             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} exact to="/">About</NavLink>
             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/resume">Resume</NavLink>
             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/portfolio">Portfolio</NavLink>
             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/contacts">Contacts</NavLink>
+            </div>
         </div>
         </div>
     )
