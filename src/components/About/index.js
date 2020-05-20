@@ -6,7 +6,9 @@ function About() {
     return (
     <div>
         <Nav />
+        <div className='padding'>
         About
+        </div>
     </div>
     );
 }

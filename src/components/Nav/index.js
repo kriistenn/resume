@@ -7,11 +7,17 @@ import style from './nav.module.css'
 function Nav() {
     console.log('style', style)
     return (
-        <div className={style['bg-blue']}>
-            <NavLink activeClassName={style.activeLink} exact to="/">About</NavLink>
-            <NavLink activeClassName={style.activeLink} to="/resume">Resume</NavLink>
-            <NavLink activeClassName={style.activeLink} to="/portfolio">Portfolio</NavLink>
-            <NavLink activeClassName={style.activeLink} to="/contacts">Contacts</NavLink>
+        <div>
+        <div className={style['div-nav']}>
+            <div className={style['photo-name']}>
+            <div className={style.image}>Imge</div>
+            <h1 className={style.name}>Christina Kolitvinova</h1>
+            </div>
+            <NavLink activeClassName={style.activeLink} className={style['nav-icon']} exact to="/">About</NavLink>
+            <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/resume">Resume</NavLink>
+            <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/portfolio">Portfolio</NavLink>
+            <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/contacts">Contacts</NavLink>
+        </div>
         </div>
     )
 }

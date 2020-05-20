@@ -6,7 +6,9 @@ function Contacts() {
     return (
     <div>
         <Nav />
+        <div className='padding'>
         Contacts
+        </div>
     </div>
     );
 }

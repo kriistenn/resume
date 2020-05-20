@@ -6,7 +6,9 @@ function Portfolio() {
     return (
     <div>
         <Nav />
+        <div className='padding'>
         Portfolio
+        </div>
     </div>
     );
 }

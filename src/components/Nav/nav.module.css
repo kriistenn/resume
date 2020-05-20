@@ -1,7 +1,53 @@
-.bg-blue {
-    background-color: #799ddf;
+.div-nav {
+    background-color: rgb(39, 39, 39);
+    width: 10%;
+    height: 100vh;
+    display: flex , fixed ;
+    flex-direction: column;
+    line-height: 1.5em;
+	
+}
+
+.nav-icon {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: rgb(179, 178, 178) solid 1px;
 }
 
 .activeLink {
-    color: pink;
+    color: #ccc;
+    background-color: #444343;
+    text-decoration: none;
+
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: #e0d0e0;
+    border: 2px solid white;
+    will-change: transform;
+    transform: perspective(300px);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 21px;
+    color: white;
+    margin: 0;
+    
+    font-weight: 500;
+    text-align: center;
+}
+
+.photo-name {
+    padding: 15px;
+    padding-bottom: 50px;
 }

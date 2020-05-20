@@ -6,7 +6,9 @@ function Resume() {
     return (
     <div>
         <Nav />
+        <div className='padding'>
         Resume
+        </div>
     </div>
     );
 }
