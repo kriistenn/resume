@@ -28,18 +28,18 @@
 }
 
 .image {
-    height: 100%;
     border: 2px solid var(--color-border);
     max-width: 80px;
+    max-height: 77px;
     text-align: center;
     margin: 25px auto 10px;
 }
-
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: bottom;
+.imgs {
+    height: 100%;
+    width: 100%;
+    max-width: 80px;
 }
+
 h1{
     font-size: 20px;
     font-weight: 400;
@@ -81,17 +81,6 @@ h1{
     }
     .image {
         display: none;
-    }
-
-    .icon-mobule a{
-        margin: 0 4px;
-        line-height: 50px;
-        text-align: center;
-        cursor: pointer;
-        overflow: hidden;
-        float: right;
-        display: inline-block;
-        text-rendering: auto;
     }
 
 }
