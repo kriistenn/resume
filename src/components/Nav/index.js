@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import style from './nav.module.css'
+import IconMobile from './IconMobile'
 
 const navItems = [
     {id: 1 , link: '/', text: 'About'},
@@ -30,6 +31,7 @@ function Nav() {
                 </NavLink>
                 ))
             }
+            <IconMobile className={style['icon-mobule']}/>
         </div>
         </div>
     )
@@ -37,24 +39,3 @@ function Nav() {
 
 
 export default Nav
-
-
-// function Nav() {
-//     console.log('style', style)
-//     return (
-//         <div>
-//         <div className={style['div-nav']}>
-//             <div className={style['photo-name']}>
-//             <div className={style.image}>Imge</div>
-//             <h1 className={style.name}>Christina Kolitvinova</h1>
-//             </div>
-//             <div >
-//             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} exact to="/">About</NavLink>
-//             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/resume">Resume</NavLink>
-//             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/portfolio">Portfolio</NavLink>
-//             <NavLink activeClassName={style.activeLink} className={style['nav-icon']} to="/contacts">Contacts</NavLink>
-//             </div>
-//         </div>
-//         </div>
-//     )
-// }

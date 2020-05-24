@@ -56,9 +56,7 @@ h1{
     line-height: 1.2em;
 }
 
-.mobile-icon {
-    display: none;
-}
+
 
 @media only screen and (max-width: 991px) {
     .div-nav {
@@ -83,6 +81,17 @@ h1{
     }
     .image {
         display: none;
+    }
+
+    .icon-mobule a{
+        margin: 0 4px;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        float: right;
+        display: inline-block;
+        text-rendering: auto;
     }
 
 }
