@@ -3,7 +3,7 @@ import React from 'react'
 
 function IconMobile() {
     return (
-        <div className={style['icon-mobule']}>
+        <div>
             <a>
             <svg height="50px"
             viewBox="0 -21 384 384"
