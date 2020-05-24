@@ -11,3 +11,11 @@ code {
 .padding {
   margin-left: 17%;
 }
+
+:root {
+  --color-nav-bg: #272727;
+  --color-white-smoke: whitesmoke;
+  --color-white-grey: #ccc;
+  --color-border: #7e5469;
+  --color-white: white;
+}
