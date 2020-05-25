@@ -9,13 +9,13 @@ code {
 }
 
 .padding {
-  margin-left: 17%;
+  margin-left: 13%;
 }
 
 :root {
   --color-nav-bg: #272727;
-  --color-white-smoke: whitesmoke;
-  --color-white-grey: #ccc;
+  --color-white-smoke: rgb(179, 170, 170);
+  --color-white-grey: rgb(255, 255, 255);
   --color-border: #7e5469;
   --color-white: white;
 }
