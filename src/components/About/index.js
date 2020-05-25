@@ -1,15 +1,14 @@
 import React from 'react';
-import Nav from '../Nav'
 import style from './about.module.css'
+import PageWrapper from '../PageWrapper/index'
 
 function About() {
     return (
-    <div>
-        <Nav />
-        <div className='padding'>
+    <PageWrapper>
+        <div>
         About
         </div>
-    </div>
+    </PageWrapper>
     );
 }
 
