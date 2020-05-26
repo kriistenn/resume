@@ -11,3 +11,7 @@
     cursor: pointer;
     color: var(--color-border);
 }
+
+.social {
+    margin-top: 15px;
+}

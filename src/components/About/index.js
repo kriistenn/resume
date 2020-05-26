@@ -53,7 +53,7 @@ function About() {
                                     <span className={style.title}>Frelance</span>
                                     <span className={style.value}>Advence</span>
                                 </li>
-                                <IconBar/>
+                                <IconBar className={style.icon}/>
                             </ul>
                             
                         </div>
