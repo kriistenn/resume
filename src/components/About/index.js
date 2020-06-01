@@ -1,7 +1,27 @@
-import React from 'react';
+import React from 'react'
 import style from './about.module.css'
-import PageWrapper from '../PageWrapper/index'
+import PageWrapper from '../pagewrapper/index'
 import IconBar from './IconBars/IconBar'
+
+const listTitle = [
+    {id: 1 , title: "Age",  value: "17"},
+    {id: 2 , title: "Residence",  value: "Kyrgyzstan"},
+    {id: 3 , title: "Address",  value: "Pushkina 13/5"},
+    {id: 4 , title: "e-mail",  value: "christinadefault@mail.ru"},
+    {id: 5 , title: "Phone",  value: "+996000000"},
+    {id: 6 , title: "Skype",  value: "kriistenn"},
+    {id: 7 , title: "Frelance",  value: "Advence"}
+]
+
+// const listValue = [
+//     {id: 1 , value: "17"},
+//     {id: 2 , value: "Age"},
+//     {id: 3 , value: "Age"},
+//     {id: 4 , value: "Age"},
+//     {id: 5 , value: "Age"},
+//     {id: 6 , value: "Age"},
+//     {id: 7 , value: "Age"}
+// ]
 
 function About() {
     return (
@@ -25,35 +45,20 @@ function About() {
                         </div>
                         <div className={style['personal-info']}>
                             <ul className={style['info-list']}>
-                                <li>
-                                    <span className={style.title}>Age</span>
-                                    <span className={style.value}>17</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>Residence</span>
-                                    <span className={style.value}>Kyrgyzstan</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>Address</span>
-                                    <span className={style.value}>Pushkina 13/5</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>e-mail</span>
-                                    <span className={style.value}>christinadefault@mail.ru</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>Phone</span>
-                                    <span className={style.value}>+996000000</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>Skype</span>
-                                    <span className={style.value}>kriistenn</span>
-                                </li>
-                                <li>
-                                    <span className={style.title}>Frelance</span>
-                                    <span className={style.value}>Advence</span>
-                                </li>
-                                <IconBar className={style.icon}/>
+                                {
+                                    listTitle.map((title, value) => {
+                                        return(
+                                            <li key={title.id}>
+                                                <span className={style.title}>{title.title}</span>
+                                                <span className={style.value}>{title.value}</span>
+                                            </li>
+                                        )
+                                    })
+                                }
+                                {
+                            
+                                }
+                                    <IconBar className={style.icon}/>
                             </ul>
                             
                         </div>

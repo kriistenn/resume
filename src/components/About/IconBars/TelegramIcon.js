@@ -4,7 +4,7 @@ function TelegramIcon (props) {
     return (
         <svg
         id="Bold"
-        enable-background="new 0 0 24 24"
+        enableBackground="new 0 0 24 24"
         height="25"
         viewBox="0 0 24 24"
         {...props}

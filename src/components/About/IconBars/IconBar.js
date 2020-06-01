@@ -9,21 +9,21 @@ function IconBar () {
         <div className={style.social}>
             <a 
             href="https://github.com/kriistenn"
-            target="blank"
+            target="_blank"
             rel="nooperer noreferrer"
             >
             <GithubIcon className={style.icon}/>
             </a>
             <a
             href="https://www.instagram.com/"
-            target="blank"
+            target="_blank"
             rel="nooperer noreferrer"
             >
                 <InstagramIcon className={style.icon}/>
             </a>
             <a
             href="https://t.me/kriistenn"
-            target="blank"
+            target="_blank"
             rel="nooperer noreferrer"
             >
                 <TelegramIcon  className={style.icon}/>
