@@ -1,0 +1,93 @@
+.container {
+    padding: 25px 5%;
+    width: 100%;
+    height: 92vh;
+    background-color: var(--bg-color);
+}
+
+.portfolio-cont {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 1240px;
+    background-color: var(--color-nav-bg);
+    overflow: auto;
+}
+
+.content {
+    position: relative;
+    padding: 20px 60px 50px;
+}
+
+.blockDecoration {
+    margin-top: 10px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-top: 3px solid var( --color-border);
+    border-left: 3px solid var( --color-border);
+    left: 20px;
+    top: 10px;
+}
+
+.section-title-block {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+
+.h2-portfolio {
+    margin: 12px 0 0;
+    font-size: 60px;
+    line-height: 1.1em;
+    color: var(--bg-color);
+}
+
+.h5-portfolio {
+    display: inline-block;
+    color: var(--bg-color);
+    background-color: var(--color-border);
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.section-title-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.portfolio-grid {
+    position: relative;
+    overflow: hidden;
+    height: 620.312px;
+    transition: height 450ms ease-out 0s;
+}
+
+
+
+
+
+.portfolio-cont::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.portfolio-cont::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.portfolio-cont::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: var(--color-border);
+}
