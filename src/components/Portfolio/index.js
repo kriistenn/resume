@@ -1,6 +1,8 @@
 import React from 'react';
 import PageWrapper from '../pagewrapper/index'
+import Card from './Card'
 import style from './portfolio.module.css'
+
 
 function Portfolio() {
     return (
@@ -14,8 +16,17 @@ function Portfolio() {
                             <h2 className={style['h2-portfolio']}>Portfolio</h2>
                             <h5 className={style['h5-portfolio']}>My best work</h5>
                         </div>
-                        <div className={style['portfolio-grid']}>
-                            
+                        <div className={style['portfolio-list']}>
+                            <Card
+                            title="Contact List"
+                            link="/portfolio/contact-list"
+                            desc="Краткое описание, тут рассказываем о проекте"
+                            />
+                            <Card
+                            title="Todo List"
+                            link="/portfolio/todo-list"
+                            desc="Краткое описание, тут рассказываем о проекте"
+                            />
                         </div>
                     </div>
                     </div>

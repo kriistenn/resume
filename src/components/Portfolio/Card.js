@@ -8,7 +8,7 @@ function Card ( {link, image, alt ='', title, desc} ) {
     return (
         <NavLink to={link} className={style.card}>
             <img src={image} alt={alt}/>
-            <div className={steles.cardText}>
+            <div className={style.cardText}>
                 <h3>{title}</h3>
                 <div>{desc}</div>
             </div>
@@ -18,5 +18,11 @@ function Card ( {link, image, alt ='', title, desc} ) {
 
 
 Card.propTypes =  {
-    
+    link: PropTypes.string,
+    image: PropTypes.string,
+    alt: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string,
 }
+
+export default Card
