@@ -1,0 +1,17 @@
+.social svg {
+    margin-right: 10px;
+}
+
+.icon {
+    background-color: var(--color-nav-bg);
+    color: rgb(90, 56, 81);
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: var(--color-border);
+}
+
+.social {
+    margin-top: 15px;
+}

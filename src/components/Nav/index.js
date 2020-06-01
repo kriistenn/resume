@@ -11,7 +11,6 @@ const navItems = [
 
 function Nav() {
     return (
-        <div className={style['mobile-visible']}>
             <div className={style['div-nav']}>
             <div className={style['photo-name']}>
                 <div className={style.image}>
@@ -33,9 +32,11 @@ function Nav() {
                 ))
             }
         </div>
-        </div>
+
     )
 }
 
 
 export default Nav
+
+
