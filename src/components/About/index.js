@@ -12,17 +12,6 @@ const listTitle = [
     {id: 6 , title: "Skype",  value: "kriistenn"},
     {id: 7 , title: "Frelance",  value: "Advence"}
 ]
-
-// const listValue = [
-//     {id: 1 , value: "17"},
-//     {id: 2 , value: "Age"},
-//     {id: 3 , value: "Age"},
-//     {id: 4 , value: "Age"},
-//     {id: 5 , value: "Age"},
-//     {id: 6 , value: "Age"},
-//     {id: 7 , value: "Age"}
-// ]
-
 function About() {
     return (
     <PageWrapper>
@@ -54,8 +43,6 @@ function About() {
                                             </li>
                                         )
                                     })
-                                }
-                                {
                             
                                 }
                                     <IconBar className={style.icon}/>
@@ -66,7 +53,7 @@ function About() {
                 </div>
         </div>
     </div>
-    </PageWrapper>
+</PageWrapper>
     );
 }
 
