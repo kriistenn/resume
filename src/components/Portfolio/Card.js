@@ -6,14 +6,17 @@ import style from './portfolio.module.css'
 
 function Card ( {link, image, alt ='', title, desc} ) {
     return (
-        <NavLink to={link} className={style.card}>
+        <div className={style.card}>
+            <NavLink  to={link} style={{ textDecoration: 'none' }}>
             <img src={image} alt={alt}/>
             <div className={style.cardText}>
                 <h3>{title}</h3>
-                <div>{desc}</div>
+                <div className={style.text}>{desc}</div>
             </div>
         </NavLink>
+        </div>
     )
+
 }
 
 
