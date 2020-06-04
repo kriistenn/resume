@@ -2,8 +2,8 @@ import React from 'react'
 import style from './about.module.css'
 import PageWrapper from '../pagewrapper/index'
 import IconBar from './IconBars/IconBar'
-import style from './about-adabtiv.module.css'
-import style from './mini-elems.module.css'
+
+
 
 const listTitle = [
     {id: 1 , title: "Age",  value: "17"},
