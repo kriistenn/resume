@@ -8,30 +8,12 @@
 }
 
 
-
-.menu{
-    border-radius: 6px;
-    outline: none;
+button{
     background-color: var(--color-nav-bg);
-    color:var(--color-border);
-    padding: 15px 20px;
-    text-transform: uppercase;
-    width:20%;
-    text-decoration:none;
-    text-align:center;
-    margin:30px 0;
-    display: block;
-    background-image: linear-gradient(to left,transparent,transparent 50%,var(--color-border) 50%,var(--color-border));
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .25s ease-in;
-    font: 400 18px tahoma;
-    border: 1px solid var(--color-border);
-   }
-   .menu:hover {
-   background-position: 0 0;
-   color:#fff;
-   }
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
 
 .nav-icon {
     color: var(--color-white-smoke);
@@ -87,8 +69,14 @@ h1{
 }
 
 
-
 @media only screen and (max-width: 1045px) {
+
+    .photo-name {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
     .div-nav {
         overflow: visible;
         position: fixed;

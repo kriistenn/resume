@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import style from './nav.module.css'
+import IconMobile from './IconMobile'
 
 const navItems = [
     {id: 1 , link: '/', text: 'About'},
@@ -18,7 +19,10 @@ function Nav(){
                     <img className={style.imgs} src={'https://i.pinimg.com/originals/9a/64/26/9a6426e462d8e10cae76d6491e4051b8.jpg'}/>
                 </div>
                 <h1 className={style.name}>Christina Kolitvinova</h1>
-                <button className={style.menu} onClick={()=>setActive(!active)}>Menu</button>
+                
+                <button className={style.menu} onClick={()=>setActive(!active)}>
+                <IconMobile/>
+                </button>
                 </div>
             {   
                 active && navItems.map(item => (
