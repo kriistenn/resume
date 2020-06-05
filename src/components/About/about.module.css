@@ -192,7 +192,7 @@ li {
 
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1045px) {
     .container{
         padding: 0;
         height: 100vh;
