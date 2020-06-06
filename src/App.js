@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import About from './components/About'
 import Resume from './components/Resume'
-import Contacts from './components/Contacts'
+import ContactList from './components/ContactList'
 import Portfolio from './components/Portfolio'
-
+import Contacts from './components/Contacts'
+import ContactItem from './components/ContactList/ContactItem'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Route path="/resume" component={Resume}  exact />
       <Route path="/portfolio" component={Portfolio} exact />
       <Route path="/contacts" component={Contacts} exact />
+      <Route path="/portfolio/contact-list" component={ContactList} exact />
+      <Route path="/portfolio/contact-list/:contactId" component ={ContactItem} exact />
     </Switch>
     </BrowserRouter>
   );

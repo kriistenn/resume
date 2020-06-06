@@ -1,7 +1,10 @@
 import React from 'react';
 import PageWrapper from '../pagewrapper/index'
 import Card from './Card'
+import React from 'react'
 import style from './portfolio.module.css'
+import PageWrapper from '../pagewrapper'
+import {NavLink} from 'react-router-dom'
 
 
 function Portfolio() {
@@ -32,6 +35,9 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
+           <div className={style.portfolioList}>
+                <NavLink to="/portfolio/contact-list">Contact List</NavLink>
+           </div>
         </PageWrapper>
     );
 }
