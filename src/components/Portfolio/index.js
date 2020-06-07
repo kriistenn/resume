@@ -1,9 +1,8 @@
 import React from 'react';
 import PageWrapper from '../pagewrapper/index'
 import Card from './Card'
-import React from 'react'
 import style from './portfolio.module.css'
-import PageWrapper from '../pagewrapper'
+
 import {NavLink} from 'react-router-dom'
 
 
@@ -20,11 +19,13 @@ function Portfolio() {
                             <h5 className={style['h5-portfolio']}>My best work</h5>
                         </div>
                         <div className={style['portfolio-list']}>
+                        <NavLink to="/portfolio/contact-list" className={style.a}>
                             <Card
                             title="Contact List"
                             link="/portfolio/contact-list"
                             desc="Классический контакт-лист, который есть в наших телефонах. Тут есть все стандартные вещи для таких приложений. А именно добавление, удаление и редактирование."
                             />
+                        </NavLink>
                             <Card
                             title="To-do List"
                             link="/portfolio/todo-list"
@@ -35,9 +36,6 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-           <div className={style.portfolioList}>
-                <NavLink to="/portfolio/contact-list">Contact List</NavLink>
-           </div>
         </PageWrapper>
     );
 }
