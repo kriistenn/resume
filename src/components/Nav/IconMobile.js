@@ -6,6 +6,7 @@ function IconMobile(props) {
         <div>
             <a>
             <svg height="30px"
+            
             {...props}
             viewBox="0 -21 384 384"
             width="30px"

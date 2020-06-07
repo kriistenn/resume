@@ -21,11 +21,11 @@ function Nav(){
                 <h1 className={style.name}>Christina Kolitvinova</h1>
                 
                 <button className={style.menu} onClick={()=>setActive(!active)}>
-                <IconMobile/>
+                <IconMobile className={style.dropdown}/>
                 </button>
                 </div>
             {   
-                active && navItems.map(item => (
+                active || navItems.map(item => (
                 <NavLink className={active}
                 activeClassName={style.activeLink}
                 className={style['nav-icon']}

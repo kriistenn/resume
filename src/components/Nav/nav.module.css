@@ -68,8 +68,19 @@ h1{
     line-height: 1.2em;
 }
 
+.menu {
+    display: none;
+}
+.dropdown {
+    color: var(--color-border);
+}
+
 
 @media only screen and (max-width: 1045px) {
+
+    .menu {
+        display: block;
+    }
 
     .photo-name {
         display: flex;

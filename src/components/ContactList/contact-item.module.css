@@ -62,7 +62,7 @@ input {
     justify-content: center;
 }
 
-button:hover {
+.btn:hover {
     background-color: #8f8fa1;
     color: white;
     outline: none;
