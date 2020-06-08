@@ -24,7 +24,7 @@ function Resume() {
                                 <h5 className={style['block-res-h5']}>2019-2020</h5>
                                 <h4 className={style['block-res-h4']}>Specialization Course</h4>
                                 <span>IT Academy of Studies</span>
-                                <p>Course in Front-end developer</p>
+                                <p>Course on Front-end developer</p>
                             </div>
                         </div>
                     </div>
