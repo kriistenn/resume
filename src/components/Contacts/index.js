@@ -1,15 +1,14 @@
 import React from 'react';
 import Nav from '../Nav'
+import PageWrapper from '../pagewrapper'
 import style from './contacts.module.css'
+import Development from '../Development'
 
 function Contacts() {
     return (
-    <div>
-        <Nav />
-        <div className='padding'>
-        Contacts
-        </div>
-    </div>
+        <PageWrapper>
+            <Development />
+        </PageWrapper>
     );
 }
 
