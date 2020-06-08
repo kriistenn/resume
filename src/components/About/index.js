@@ -7,12 +7,11 @@ import IconBar from './IconBars/IconBar'
 
 const listTitle = [
     {id: 1 , title: "Age",  value: "17"},
-    {id: 2 , title: "Residence",  value: "Kyrgyzstan"},
-    {id: 3 , title: "Address",  value: "Pushkina 13/5"},
-    {id: 4 , title: "e-mail",  value: "christinadefault@mail.ru"},
-    {id: 5 , title: "Phone",  value: "+996000000"},
-    {id: 6 , title: "Skype",  value: "kriistenn"},
-    {id: 7 , title: "Frelance",  value: "Advence"}
+    {id: 2 , title: "Residence",  value: "Kyrgyzstan, Bishkek"},
+    {id: 3 , title: "e-mail",  value: "christinadefault@mail.ru"},
+    {id: 4 , title: "Phone",  value: "+996500442943"},
+    {id: 5 , title: "Skype",  value: "kriistenn"},
+    {id: 6 , title: "Frelance",  value: "Available"}
 ]
 function About() {
     return (
@@ -30,7 +29,7 @@ function About() {
                         <img className={style.imgs} src={'https://i.pinimg.com/originals/9a/64/26/9a6426e462d8e10cae76d6491e4051b8.jpg'}/>
                         </div>
                         <div className={style['about-info']}>
-                            <h3 className={style['h3-about-info']}>I am Web Designer @ Company.com</h3>
+                            <h3 className={style['h3-about-info']}>I am Front-end developer</h3>
                             <p className={style['info-p']}>Praesent ut tortor consectetur, semper sapien non, lacinia augue. Aenean arcu libero, facilisis et nisi non, tempus faucibus tortor. Mauris vel nulla aliquam, pellentesque enim ac, faucibus tortor. Nulla odio nibh, cursus sit amet urna id, dignissim euismod augue.</p> 
                             <p className={style['info-p']}>Duis sollicitudin, libero porttitor rutrum ultrices,<br/> turpis lorem fermentum justo, quis ornare augue tortor non est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                         </div>
