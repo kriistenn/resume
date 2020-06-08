@@ -1,0 +1,55 @@
+.todo {
+    background-color: #f0f0f0;
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .todo_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .todo_desc {
+    margin-bottom: 20px;
+  }
+  
+  .priority {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .page {
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form {
+    background-color: #f0f0f0;
+    border: 1px solid #eee;
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .form input, .form textarea, .form button {
+    width: 200px;
+    padding: 7px 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .form input[type="radio"] {
+    width: auto;
+  }
+  
+  .list {
+    width: 100%;
+  }
