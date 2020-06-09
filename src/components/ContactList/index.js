@@ -56,28 +56,31 @@ function ContactList() {
             <form className={style.form}>
             <span className={style['form-title']}>New contact</span>
             <input 
+                className={style.input_contactL}
                 type="text" 
                 placeholder="Имя" 
                 value={name}
                 onChange={(e) => dispatch({ type: 'CHANGE_NAME', payload: e.target.value })}
             />
             <input 
+                className={style.input_contactL}
                 type="text" 
                 placeholder="Телефон" 
                 value={phone}
                 onChange={(e) => dispatch({ type: 'CHANGE_PHONE', payload: e.target.value })}
             />
             <input 
+                className={style.input_contactL}
                 type="text" 
                 placeholder="Адрес" 
                 value={addres}
                 onChange={(e) => dispatch({ type: 'CHANGE_ADDRES', payload: e.target.value })}
             />
-           <div className={style.btn}>
-           <button className={style.btnAdd} onClick={handleAdd} >
+            <div className={style.btn}>
+            <button className={style.btnAdd} onClick={handleAdd} >
             Добавить
             </button>
-           </div>
+            </div>
             </form>
             <div className={style.list}>
                 { contacts.map(c => <Card  key={c.id} contact={c}/>) }

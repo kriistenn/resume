@@ -9,6 +9,7 @@ return (
             return (
                 <div key={type}>
                     <input 
+                        className={style.radioBtn}
                         id={`priority-${type}`}
                         type="radio"
                         name="priority" 

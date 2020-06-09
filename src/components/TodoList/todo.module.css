@@ -1,5 +1,5 @@
 .todo {
-    background-color: #f0f0f0;
+    background-color: #fbe8fc;
     border: 1px solid #eee;
     padding: 10px;
     width: 100%;
@@ -18,17 +18,24 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
+  .container {
+    background-color: #b8a6bb;
+    height: 100vh;
+    width: 100%;
+  }
   
   .page {
     padding: 20px;
     font-size: 18px;
     display: flex;
     width: 100%;
+  
     box-sizing: border-box;
   }
   
   .form {
-    background-color: #f0f0f0;
+    background-color: #fbe8fc;
     border: 1px solid #eee;
     padding: 15px;
     width: 300px;
@@ -53,3 +60,30 @@
   .list {
     width: 100%;
   }
+
+  .btn {
+    color: #fff;
+    background-color: #827483;
+  }
+
+  .btn:hover {
+    background-color: rgb(206, 185, 218);
+    color: #4a414b;
+  }
+
+  
+
+@media only screen and (max-width: 640px) {
+    .page {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .todo {
+      margin-top: 10px;
+    }
+
+    .container {
+      height: 100%;
+    }
+}

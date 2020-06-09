@@ -13,14 +13,14 @@ function TodoList() {
         priority: 'normal'
     }
 
-    const reducer = (state, action) => {
+    const reducer = (state=initialState, action) => {
         switch (action.type) {
             case 'ADD_TITLE':
                 return {...state, title: action.payload};
             case 'ADD_DESC':
                 return {...state, desc: action.payload};
             case 'ADD_PRIORITY':
-                return {...state, priority: action.payload};
+                return {...state, priority: action.priority};
             case 'ADD_TASK':
                 return {...state, todos: [...state.todos, action.payload]};
             case 'CHANGE_CLEAR':
@@ -51,10 +51,12 @@ const handleAdd = (e) => {
 }
 
 return (
-    <div className={style.page}>
+  <div className={style.container}>
+        <div className={style.page}>
         <form className={style.form}>
             <h3>Новая задача</h3>
             <input 
+            
                 type="text" 
                 placeholder="Название" 
                 value={title}
@@ -67,9 +69,9 @@ return (
         />
         <Priorities 
             priority={priority}
-            setPriority={(value) => dispatch({ type: 'CHANGE_PRIORITY', priority: value })}
+            setPriority={(value) => dispatch({ type: 'ADD_PRIORITY', priority: value })}
         />
-        <button onClick={handleAdd} >
+        <button className={style.btn} onClick={handleAdd} >
             Добавить
         </button>
         </form>
@@ -77,6 +79,7 @@ return (
             { todos.map(c => <Todo key={c.id} todo={c}/>) }
         </div>
     </div>
+  </div>
 )
 }
 
