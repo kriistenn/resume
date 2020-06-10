@@ -51,8 +51,8 @@
     height: 62px;
     border: 2px solid #8f8fa1;
     border-radius: 31px;
-    color:#8f8fa1;
-    background-color: #725d74;
+    color:white;
+    background-color: #8f8fa1;
     font-size: 17px;
     
     font-weight: 800;
@@ -63,7 +63,8 @@
 }
 
 .btnAdd:hover {
-    background-color: #8f8fa1;
+    border: 2px solid #6b6b7c;
+    background-color: #6b6b7c;
     color: white;
     outline: none;
 }

@@ -15,13 +15,9 @@ function TodoList() {
 
     const reducer = (state=initialState, action) => {
         switch (action.type) {
-            case 'ADD_TITLE':
-                return {...state, title: action.payload};
-            case 'ADD_DESC':
-                return {...state, desc: action.payload};
-            case 'ADD_PRIORITY':
-                return {...state, priority: action.priority};
-            case 'ADD_TASK':
+            case 'CHANGE_FIELD': 
+            return {...state, [action.fieldName]: action.fieldValue}
+            case 'CHANGE_TASK':
                 return {...state, todos: [...state.todos, action.payload]};
             case 'CHANGE_CLEAR':
                 return {...state, title: '' ,desc: '',priority: 'normal'};
@@ -44,7 +40,7 @@ const handleAdd = (e) => {
             title, desc, priority
     }
 
-    dispatch({type: 'ADD_TASK', payload: newTodo})
+    dispatch({type: 'CHANGE_TASK', payload: newTodo})
     dispatch({type: 'CHANGE_CLEAR'})
     
     
@@ -60,16 +56,16 @@ return (
                 type="text" 
                 placeholder="Название" 
                 value={title}
-                onChange={(e) => dispatch({type: 'ADD_TITLE', payload: e.target.value })}
+                onChange={(e) => dispatch({type: 'CHANGE_FIELD', fieldName: 'title',fieldValue: e.target.value })}
             />
                 <textarea 
                     placeholder="Описание" 
                     value={desc}
-                    onChange={(e) => dispatch({type: 'ADD_DESC', payload: e.target.value})}
+                    onChange={(e) => dispatch({type: 'CHANGE_FIELD', fieldName: 'desc',fieldValue: e.target.value})}
         />
         <Priorities 
             priority={priority}
-            setPriority={(value) => dispatch({ type: 'ADD_PRIORITY', priority: value })}
+            setPriority={(value) => dispatch({ type: 'CHANGE_FIELD', fieldName: 'priority',fieldValue: value})}
         />
         <button className={style.btn} onClick={handleAdd} >
             Добавить

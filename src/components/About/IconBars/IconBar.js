@@ -22,7 +22,7 @@ function IconBar () {
                 <InstagramIcon className={style.icon}/>
             </a>
             <a
-            href="https://t.me/kriistenn"
+            href="https://t.me/kristtenn"
             target="_blank"
             rel="nooperer noreferrer"
             >

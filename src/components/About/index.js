@@ -30,8 +30,10 @@ function About() {
                         </div>
                         <div className={style['about-info']}>
                             <h3 className={style['h3-about-info']}>I am Front-end developer</h3>
-                            <p className={style['info-p']}>Praesent ut tortor consectetur, semper sapien non, lacinia augue. Aenean arcu libero, facilisis et nisi non, tempus faucibus tortor. Mauris vel nulla aliquam, pellentesque enim ac, faucibus tortor. Nulla odio nibh, cursus sit amet urna id, dignissim euismod augue.</p> 
-                            <p className={style['info-p']}>Duis sollicitudin, libero porttitor rutrum ultrices,<br/> turpis lorem fermentum justo, quis ornare augue tortor non est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <p className={style['info-p']}>Привет, меня зовут Кристина. Я занимаюсь Front-end разработкой. 
+Люблю получать детальную и уместную критику, так как она помогает мне развиваться как личность и как разработчик. Считаю что нет не решаемых проблем, так как есть Google который имеет ответы на все вопросы  и опытные коллеги, которые укажут направление. 
+Так же имею огромное желание реализоваться как front-end разработчик и никогда не останавливаться на достигнутом.</p> 
+                            <p className={style['info-p']}>В свободное время я занимаюсь  саморазвитием, а так же самосовершенствованием в программировании,<br/>  изучению новых технологий и игрой на фортепиано c:</p>
                         </div>
                         <div className={style['personal-info']}>
                             <ul className={style['info-list']}>
