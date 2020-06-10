@@ -24,19 +24,21 @@ function Nav(){
                 <IconMobile className={style.dropdown}/>
                 </button>
                 </div>
-            {   
-                active || navItems.map(item => (
-                <NavLink className={active}
-                activeClassName={style.activeLink}
-                className={style['nav-icon']}
-                exact
-                key={item.id}
-                to={item.link}
-                >
-                {item.text}
-                </NavLink>
+                <div className={!active ? style['navItems--hidden'] : ''}>
+            {  
+                navItems.map(item => (
+                    <NavLink className={active}
+                    activeClassName={style.activeLink}
+                    className={style['nav-icon']}
+                    exact
+                    key={item.id}
+                    to={item.link}
+                    >
+                    {item.text}
+                    </NavLink>
                 ))
             }
+            </div>
         </div>
     )
 }

@@ -76,7 +76,10 @@ h1{
 
 
 @media only screen and (max-width: 1045px) {
-
+    
+    .navItems--hidden {
+        display: none;   
+    }
     .menu {
         display: block;
     }
