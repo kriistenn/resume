@@ -56,15 +56,23 @@ function Resume() {
                         </div>
                         <h4>Node.js</h4>
                         <div className={style['skill-container']}>
-                            <div className={style.lvl4}></div>
+                            <div className={style.lvl5}></div>
                         </div>
                         <h4>Git</h4>
                         <div className={style['skill-container']}>
-                            <div className={style.lvl4}></div>
+                            <div className={style.lvl6}></div>
                         </div>
                         <h4>Bootstrap</h4>
                         <div className={style['skill-container']}>
-                            <div className={style.lvl4}></div>
+                            <div className={style.lvl7}></div>
+                        </div>
+                        <h4>Webpack</h4>
+                        <div className={style['skill-container']}>
+                            <div className={style.lvl8}></div>
+                        </div>
+                        <h4>Redux</h4>
+                        <div className={style['skill-container']}>
+                            <div className={style.lvl9}></div>
                         </div>
                         </div>
                     </div>

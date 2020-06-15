@@ -23,7 +23,7 @@ function Portfolio() {
                             <Card
                             title="Contact List"
                             link="/portfolio/contact-list"
-                            desc="Классический контакт-лист, который есть в наших телефонах. С функцией добавления  контактов"
+                            desc="Классический контакт-лист, который есть в наших телефонах. С функцией добавления  контактов."
                             />
                         </NavLink>
                             <NavLink  to="/portfolio/todo-list" className={style.a}>

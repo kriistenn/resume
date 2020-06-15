@@ -15,7 +15,7 @@ function IconBar () {
             <GithubIcon className={style.icon}/>
             </a>
             <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/chriiistenn/"
             target="_blank"
             rel="nooperer noreferrer"
             >

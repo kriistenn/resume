@@ -146,11 +146,83 @@ p {
 }
 
 .lvl1 {
-    width: 40%;
+    width: 45%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
     padding: 0
+}
+
+.lvl2 {
+    width: 50%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0
+}
+
+.lvl3 {
+    width: 40%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+
+}
+
+.lvl4 {
+    width: 47%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+
+}
+.lvl5 {
+    width: 15%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+
+}
+.lvl6 {
+    width: 37%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+
+}
+.lvl7 {
+    width: 20%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+
+}
+.lvl8 {
+    width: 20%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+}
+
+.lvl8 {
+    width: 27%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
+}
+.lvl9 {
+    width: 30%;
+    background-color: var(--color-border);
+    border: 1px solid #fff;
+    height: 10px;
+    padding: 0;
 }
 
 .skills-info h4 {
