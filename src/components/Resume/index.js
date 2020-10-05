@@ -74,6 +74,10 @@ function Resume() {
                         <div className={style['skill-container']}>
                             <div className={style.lvl9}></div>
                         </div>
+                        <h4>Sass</h4>
+                        <div className={style['skill-container']}>
+                            <div className={style.lv20}></div>
+                        </div>
                         </div>
                     </div>
                 </div>

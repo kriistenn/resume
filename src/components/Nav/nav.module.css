@@ -46,9 +46,10 @@ button{
     margin: 25px auto 10px;
 }
 .imgs {
-    height: 100%;
-    width: 100%;
-    max-width: 80px;
+    height: 77px;
+    width: 80px;
+    background-image: url(./MyPhoto.jpg);
+    background-size: 100%;
 }
 
 h1{

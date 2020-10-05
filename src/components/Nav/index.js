@@ -16,7 +16,7 @@ function Nav(){
                 <div className={style['div-nav']}>
             <div className={style['photo-name']}>
                 <div className={style.image}>
-                    <img className={style.imgs} src={'https://i.pinimg.com/originals/9a/64/26/9a6426e462d8e10cae76d6491e4051b8.jpg'}/>
+                    <img className={style.imgs}/>
                 </div>
                 <h1 className={style.name}>Christina Kolitvinova</h1>
                 
