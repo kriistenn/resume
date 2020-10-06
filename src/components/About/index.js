@@ -9,7 +9,7 @@ const listTitle = [
     {id: 2 , title: "Residence",  value: "Kyrgyzstan, Bishkek"},
     {id: 3 , title: "e-mail",  value: "christinadefault@mail.ru"},
     {id: 4 , title: "Phone",  value: "+996 505 442 943"},
-    {id: 5, title: "Language", value: "Russian(native), English(Intermedia)"}
+    {id: 5, title: "Language", value: "Russian(native), English(intermediate)"}
 ]
 function About() {
     return (
