@@ -32,6 +32,12 @@ function Resume() {
                     <div className={style['block-title']}>
                             <h3 className={style.h3}>Experience</h3>
                         </div>
+                        <div className={style['block-res']}>
+                                <h5 className={style['block-res-h5']}>2020-2021(3 months)</h5>
+                                <h4 className={style['block-res-h4']}>Стажировка</h4>
+                                <span>MADMEN</span>
+                                <p>Front-end developer</p>
+                            </div>
                     </div>
                     <div className={style['subpage-block']}>
                     <div className={style['block-title']}>

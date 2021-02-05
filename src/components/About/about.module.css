@@ -44,8 +44,7 @@
 .imgs {
     height: 100%;
     width: 100%;
-    background-image: url(../About/MyPhoto.jpg);
-    background-size: 100%;
+    overflow: hidden;
 }
 
 .info-p{

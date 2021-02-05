@@ -48,8 +48,8 @@ button{
 .imgs {
     height: 77px;
     width: 80px;
-    background-image: url(./MyPhoto.jpg);
     background-size: 100%;
+    overflow: hidden;
 }
 
 h1{

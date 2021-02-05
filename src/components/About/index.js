@@ -2,13 +2,13 @@ import React from 'react'
 import style from './about.module.css'
 import PageWrapper from '../pagewrapper/index'
 import IconBar from './IconBars/IconBar'
-import ffff from '../About/MyPhoto.jpg'
+import photo from '../Nav/MyPhoto.jpg'
 
 const listTitle = [
     {id: 1 , title: "Age",  value: "17"},
     {id: 2 , title: "Residence",  value: "Kyrgyzstan, Bishkek"},
     {id: 3 , title: "e-mail",  value: "christinadefault@mail.ru"},
-    {id: 4 , title: "Phone",  value: "+996 505 442 943"},
+    {id: 4 , title: "Phone",  value: "+996 500 587 778"},
     {id: 5, title: "Language", value: "Russian(native), English(intermediate)"}
 ]
 function About() {
@@ -24,7 +24,7 @@ function About() {
                     </div>
                     <div className={style['section-cont-block']}>
                         <div className={style['block-img']}>
-                        <div className={style['imgs']}></div>
+                            <img className={style['imgs']} src={photo}/>
                         </div>
                         <div className={style['about-info']}>
                             <h3 className={style['h3-about-info']}>I am Front-end developer</h3>
