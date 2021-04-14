@@ -146,7 +146,7 @@ p {
 }
 
 .lvl1 {
-    width: 45%;
+    width: 60%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
@@ -154,7 +154,7 @@ p {
 }
 
 .lvl2 {
-    width: 50%;
+    width: 60%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
@@ -162,7 +162,7 @@ p {
 }
 
 .lvl3 {
-    width: 40%;
+    width: 55%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
@@ -171,7 +171,7 @@ p {
 }
 
 .lvl4 {
-    width: 40%;
+    width: 50%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
@@ -179,7 +179,7 @@ p {
 
 }
 .lvl5 {
-    width: 15%;
+    width: 40%;
     background-color: var(--color-border);
     border: 1px solid #fff;
     height: 10px;
