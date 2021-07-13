@@ -5,7 +5,7 @@ import IconBar from './IconBars/IconBar'
 import photo from '../Nav/MyPhoto.jpg'
 
 const listTitle = [
-    {id: 1 , title: "Age",  value: "17"},
+    {id: 1 , title: "Age",  value: "18"},
     {id: 2 , title: "Residence",  value: "Kyrgyzstan, Bishkek"},
     {id: 3 , title: "e-mail",  value: "christinadefault@mail.ru"},
     {id: 4 , title: "Phone",  value: "+996 500 587 778"},
